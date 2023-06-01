@@ -1,0 +1,56 @@
+.trends {
+    position: relative;
+  }
+  
+  .trends__search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .trend__control {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .trend__icon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .search {
+    font-size: 18px;
+  }
+  
+  #clearBtn {
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .dataResult {
+    position: absolute;
+    top: 40px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: scroll;
+   
+  }
+  .dataResult::-webkit-scrollbar {
+      display: none;
+  }
+  
+  
+  .list {
+    padding: 5px;
+  
+  }
+  
+  .list:hover {
+    background-color: #f0f0f0;
+  }
